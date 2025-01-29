@@ -103,19 +103,18 @@ ol li::marker {
 
 h1,
 h2 {
+    font-weight: 400;
     font-family: "Young Serif", serif;
     font-style: normal;
 }
 
 h1 {
     font-size: 3.6rem;
-    font-weight: 700;
 
     color: var(--var-color-stone-900, hsl(24, 5%, 18%));
 }
 
 h2 {
-    font-weight: 600;
 
     color: var(--var-color-brown-800, hsl(14, 45%, 36%));
 }
