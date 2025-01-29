@@ -146,6 +146,7 @@ td {
     border-bottom: 0.1rem solid var(--var-color-stone-150, hsl(30, 18%, 87%));
 
     & strong {
+        font-weight: 600;
         color: var(--var-color-brown-800, hsl(14, 45%, 36%));
     }
 }
