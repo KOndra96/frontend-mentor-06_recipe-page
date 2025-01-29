@@ -67,10 +67,10 @@ body {
     }
 }
 
-p:not(:nth-of-type(1)),
+p,
 ul,
 ol,
-/* h1, */
+h1,
 h2,
 .preparation-time {
     margin-left: 3rem;
@@ -109,7 +109,7 @@ h2 {
 
 h1 {
     font-size: 3.6rem;
-    font-weight: 600;
+    font-weight: 700;
 
     color: var(--var-color-stone-900, hsl(24, 5%, 18%));
 }
@@ -157,7 +157,8 @@ td {
 
 @media screen and (min-width: 43.75rem) {
     & body {
-        margin-top: 3rem;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     & .recipe-box {
@@ -173,6 +174,10 @@ td {
                 border-radius: 1rem;
             }
         }
+    }
+
+    & header p, & h1 {
+        margin-left: 0;
     }
 }
 
