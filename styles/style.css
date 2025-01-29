@@ -67,10 +67,10 @@ body {
     }
 }
 
-p,
+p:not(:nth-of-type(1)),
 ul,
 ol,
-h1,
+/* h1, */
 h2,
 .preparation-time {
     margin-left: 3rem;
@@ -109,7 +109,7 @@ h2 {
 
 h1 {
     font-size: 3.6rem;
-    font-weight: 700;
+    font-weight: 600;
 
     color: var(--var-color-stone-900, hsl(24, 5%, 18%));
 }
